@@ -1,0 +1,40 @@
+/* el asterisco es un selector universal. Con este, aplico a todo el documento un estilo
+
+ejemplo
+*{margin:0px;}
+
+* */
+/* background="imagen de fondo.png" */
+@font-face {
+        font-family:"elegante" ;
+        src: url(elegance.ttf);
+
+}
+form{background-color: #e45826;}
+body {background-color: aquamarine;}
+.cards{
+        width:10vw;
+        height:50vh;
+        border-radius: 5%;
+        
+        border:5px solid #f0000c;  
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        padding: 2em;
+  
+   
+}
+#cards-container{
+        background-color: rgb(255, 225, 127);
+        display:flex;
+        flex-direction:row;
+        margin:auto;
+        width:85vw;
+        margin-bottom: 1.5em;
+        border-radius: 2%;
+        padding: 2em;
+        justify-content: space-around;
+        border:5px solid #46a81f; 
+}
+
